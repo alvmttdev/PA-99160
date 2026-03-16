@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><title>Atividade 1</title><link rel="stylesheet" href="style.css"></head>
+<body>
+    <a href="index.html" class="btn-voltar">⬅ Voltar ao Menu</a>
+    <section>
+        <img src="https://placehold.co/300x100/3498db/FFF?text=LOGOTIPO+1" class="logo">
+        <h2>Atividade 1: Operações com Dois Números</h2>
+        <div class="form-group"><label>Primeiro Número:</label><input type="number" id="n1_atv1"></div>
+        <div class="form-group"><label>Segundo Número:</label><input type="number" id="n2_atv1"></div>
+        <button onclick="calcularAtv1()">Calcular</button>
+        <div id="res_atv1" class="resultado"></div>
+    </section>
+    <script src="script.js"></script>
+</body></html>
