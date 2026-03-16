@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><title>Atividade 6</title><link rel="stylesheet" href="style.css"></head>
+<body>
+    <a href="index.html" class="btn-voltar">⬅ Voltar ao Menu</a>
+    <section>
+        <img src="https://placehold.co/300x100/34495e/FFF?text=LOGOTIPO+6" class="logo">
+        <h2>Atividade 6: Média com Validação</h2>
+        <div class="form-group"><label>Nota 1:</label><input type="number" id="n1_atv6" onblur="validarNota(this)"></div>
+        <div class="form-group"><label>Nota 2:</label><input type="number" id="n2_atv6" onblur="validarNota(this)"></div>
+        <div class="form-group"><label>Nota 3:</label><input type="number" id="n3_atv6" onblur="validarNota(this)"></div>
+        <button onclick="calcularAtv6()">Calcular Média Final</button>
+        <div id="res_atv6" class="resultado"></div>
+    </section>
+    <script src="script.js"></script>
+</body></html>
